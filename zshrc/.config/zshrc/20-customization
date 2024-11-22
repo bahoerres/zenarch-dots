@@ -1,0 +1,157 @@
+# -----------------------------------------------------
+# CUSTOMIZATION
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Plugin Management
+# -----------------------------------------------------
+
+# Define plugin directory
+PLUGIN_DIR="$HOME/.zsh/plugins"
+
+# Function to source plugins
+source_plugin() {
+    if [ -f "$1" ]; then
+        source "$1"
+    else
+        echo "Warning: $1 not found."
+    fi
+}
+
+# Source plugins
+source_plugin "$PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source_plugin "$PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source_plugin "$PLUGIN_DIR/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
+eval "$(atuin init zsh)"
+
+# Git integration
+if [ -f "/usr/share/zsh/functions/git.zsh" ]; then
+    source "/usr/share/zsh/functions/git.zsh"
+else
+    # Basic git aliases
+    alias ga='git add'
+    alias gc='git commit'
+    alias gp='git push'
+    # Add more as needed
+fi
+
+# Sudo plugin integration
+sudo-command-line() {
+    [[ -z $BUFFER ]] && zle up-history
+    if [[ $BUFFER == sudo\ * ]]; then
+        LBUFFER="${LBUFFER#sudo }"
+    else
+        LBUFFER="sudo $LBUFFER"
+    fi
+}
+zle -N sudo-command-line
+# Double-ESC to add/remove sudo
+bindkey "\e\e" sudo-command-line
+
+# Web search integration
+web_search() {
+  local open_cmd
+  [[ "$OSTYPE" = linux* ]] && open_cmd='xdg-open' || open_cmd='open'
+  $open_cmd "https://www.google.com/search?q=$*"
+}
+alias google='web_search'
+alias bing='web_search bing'
+alias youtube='web_search youtube'
+alias github='web_search github'
+
+# Arch Linux specific aliases
+if [ -f /etc/arch-release ]; then
+    alias pacupg='sudo pacman -Syu'
+    alias pacin='sudo pacman -S'
+    alias pacrem='sudo pacman -Rns'
+    alias pacsearch='pacman -Ss'
+    # Add more Arch-specific aliases as needed
+fi
+
+# Copyfile integration
+copyfile() {
+  emulate -L zsh
+  if [ -f "$1" ]; then
+    cat "$1" | clipcopy
+    echo "Contents of $1 copied to clipboard."
+  else
+    echo "File not found: $1"
+  fi
+}
+
+# Copybuffer integration
+copybuffer() {
+  echo $BUFFER | clipcopy
+  zle -M "Current command line copied to clipboard."
+}
+zle -N copybuffer
+bindkey '^O' copybuffer  # Ctrl+O to copy current command line
+
+# Dirhistory integration
+DIRSTACKSIZE=10
+
+setopt AUTO_PUSHD           # Push the current directory visited on the stack.
+setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
+setopt PUSHD_SILENT         # Do not print the directory stack after pushd or popd.
+
+dirhistory_past() {
+  pushd -q +1 &> /dev/null
+  zle reset-prompt
+  print -l $PWD
+}
+
+dirhistory_future() {
+  popd -q &> /dev/null
+  zle reset-prompt
+  print -l $PWD
+}
+
+zle -N dirhistory_past
+zle -N dirhistory_future
+
+# Alt+Left and Alt+Right for directory navigation
+bindkey '^[[1;3D' dirhistory_past
+bindkey '^[[1;3C' dirhistory_future
+
+# Use 'd' to show the directory stack
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+# -----------------------------------------------------
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+# -----------------------------------------------------
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# -----------------------------------------------------
+# Zsh history
+# -----------------------------------------------------
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+setopt inc_append_history
+setopt share_history
+
+# -----------------------------------------------------
+# Starship prompt
+# -----------------------------------------------------
+eval "$(starship init zsh)"
+
+# -----------------------------------------------------
+# Additional customizations can be added here
+# -----------------------------------------------------
+
+# Enable colored output for ls and other commands
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Enable auto-correction
+setopt correct
+
+# Enable completion system
+autoload -Uz compinit && compinit
+
+# Case-insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
