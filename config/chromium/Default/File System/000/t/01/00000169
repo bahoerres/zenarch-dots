@@ -1,0 +1,6 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE=AUDIO,NAME="audio_default_name",GROUP-ID="audio_default_id",AUTOSELECT=YES,DEFAULT=YES,URI="audio.m3u8?region=us-west-2&bucket=iv-prod-pro-creators&key=602fee24-b727-4859-bf60-4e6fc779dee5/602fee24-b727-4859-bf60-4e6fc779dee5&duration=3&preset=hd44stereo_ogg_hls"
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a",AUDIO="audio_default_id"
+video.m3u8?region=us-west-2&bucket=iv-prod-pro-creators&key=602fee24-b727-4859-bf60-4e6fc779dee5/602fee24-b727-4859-bf60-4e6fc779dee5&duration=3&preset=sd480_mpeg_hls

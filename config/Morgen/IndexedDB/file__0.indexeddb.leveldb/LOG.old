@@ -1,0 +1,61 @@
+2024/11/19-13:50:50.630 2f70 Creating DB /home/blake/.config/Morgen/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2024/11/19-13:50:50.649 2f70 Reusing MANIFEST /home/blake/.config/Morgen/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/11/19-13:50:51.835 2f8d Level-0 table #5: started
+2024/11/19-13:50:51.849 2f8d Level-0 table #5: 3245 bytes OK
+2024/11/19-13:50:51.869 2f8d Delete type=0 #3
+2024/11/19-13:50:51.869 2f6e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/19-14:09:37.948 2f70 Level-0 table #7: started
+2024/11/19-14:09:37.977 2f70 Level-0 table #7: 888627 bytes OK
+2024/11/19-14:09:37.992 2f70 Delete type=0 #4
+2024/11/19-14:09:54.966 2f70 Compacting 1@1 + 1@2 files
+2024/11/19-14:09:54.984 2f70 Generated table #8@1: 1570 keys, 183067 bytes
+2024/11/19-14:09:54.984 2f70 Compacted 1@1 + 1@2 files => 183067 bytes
+2024/11/19-14:09:54.997 2f70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/19-14:09:54.997 2f70 Delete type=2 #5
+2024/11/19-14:09:54.998 2f70 Delete type=2 #7
+2024/11/19-15:14:06.506 2f70 Level-0 table #10: started
+2024/11/19-15:14:06.541 2f70 Level-0 table #10: 750175 bytes OK
+2024/11/19-15:14:06.555 2f70 Delete type=0 #6
+2024/11/19-15:14:19.766 2f70 Compacting 1@1 + 1@2 files
+2024/11/19-15:14:19.803 2f70 Generated table #11@1: 1605 keys, 187718 bytes
+2024/11/19-15:14:19.803 2f70 Compacted 1@1 + 1@2 files => 187718 bytes
+2024/11/19-15:14:19.817 2f70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/19-15:14:19.817 2f70 Delete type=2 #8
+2024/11/19-15:14:19.817 2f70 Delete type=2 #10
+2024/11/20-12:46:08.227 2f70 Level-0 table #13: started
+2024/11/20-12:46:08.259 2f70 Level-0 table #13: 779357 bytes OK
+2024/11/20-12:46:08.273 2f70 Delete type=0 #9
+2024/11/20-12:46:20.271 2f70 Compacting 1@1 + 1@2 files
+2024/11/20-12:46:20.296 2f70 Generated table #14@1: 1779 keys, 206454 bytes
+2024/11/20-12:46:20.297 2f70 Compacted 1@1 + 1@2 files => 206454 bytes
+2024/11/20-12:46:20.312 2f70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/20-12:46:20.312 2f70 Delete type=2 #11
+2024/11/20-12:46:20.312 2f70 Delete type=2 #13
+2024/11/20-13:17:42.687 2f6e Level-0 table #16: started
+2024/11/20-13:17:42.710 2f6e Level-0 table #16: 624664 bytes OK
+2024/11/20-13:17:42.738 2f6e Delete type=0 #12
+2024/11/20-13:17:42.739 2f6e Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/20-13:17:50.653 2f6e Compacting 1@1 + 1@2 files
+2024/11/20-13:17:50.668 2f6e Generated table #17@1: 2018 keys, 225630 bytes
+2024/11/20-13:17:50.668 2f6e Compacted 1@1 + 1@2 files => 225630 bytes
+2024/11/20-13:17:50.681 2f6e compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/20-13:17:50.681 2f6e Delete type=2 #14
+2024/11/20-13:17:50.681 2f6e Delete type=2 #16
+2024/11/20-13:35:11.693 2f70 Level-0 table #19: started
+2024/11/20-13:35:11.718 2f70 Level-0 table #19: 2449556 bytes OK
+2024/11/20-13:35:11.731 2f70 Delete type=0 #15
+2024/11/20-13:35:24.735 2f6e Compacting 1@1 + 1@2 files
+2024/11/20-13:35:24.761 2f6e Generated table #20@1: 2066 keys, 239237 bytes
+2024/11/20-13:35:24.761 2f6e Compacted 1@1 + 1@2 files => 239237 bytes
+2024/11/20-13:35:24.774 2f6e compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/20-13:35:24.774 2f6e Delete type=2 #17
+2024/11/20-13:35:24.775 2f6e Delete type=2 #19
+2024/11/21-13:28:13.630 2f70 Level-0 table #22: started
+2024/11/21-13:28:13.654 2f70 Level-0 table #22: 820230 bytes OK
+2024/11/21-13:28:13.667 2f70 Delete type=0 #18
+2024/11/21-13:28:25.210 2f70 Compacting 1@1 + 1@2 files
+2024/11/21-13:28:25.237 2f70 Generated table #23@1: 2047 keys, 226543 bytes
+2024/11/21-13:28:25.237 2f70 Compacted 1@1 + 1@2 files => 226543 bytes
+2024/11/21-13:28:25.251 2f70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/21-13:28:25.251 2f70 Delete type=2 #20
+2024/11/21-13:28:25.251 2f70 Delete type=2 #22

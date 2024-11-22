@@ -1,0 +1,18 @@
+2024/11/19-06:54:06.665 24e68 Reusing MANIFEST /home/blake/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/11/19-06:54:06.670 24e68 Recovering log #3
+2024/11/19-06:54:06.670 24e68 Reusing old log /home/blake/.config/vesktop/sessionData/Local Storage/leveldb/000003.log 
+2024/11/19-07:09:17.413 24e6a Level-0 table #5: started
+2024/11/19-07:09:17.429 24e6a Level-0 table #5: 29742 bytes OK
+2024/11/19-07:09:17.441 24e6a Delete type=0 #3
+2024/11/19-07:38:23.428 24e6a Level-0 table #7: started
+2024/11/19-07:38:23.444 24e6a Level-0 table #7: 22968 bytes OK
+2024/11/19-07:38:23.457 24e6a Delete type=0 #4
+2024/11/19-07:44:56.092 24e6a Level-0 table #9: started
+2024/11/19-07:44:56.108 24e6a Level-0 table #9: 24953 bytes OK
+2024/11/19-07:44:56.121 24e6a Delete type=0 #6
+2024/11/19-07:51:14.485 24e6a Level-0 table #11: started
+2024/11/19-07:51:14.501 24e6a Level-0 table #11: 16742 bytes OK
+2024/11/19-07:51:14.515 24e6a Delete type=0 #8
+2024/11/19-08:33:44.349 24e6a Level-0 table #13: started
+2024/11/19-08:33:44.365 24e6a Level-0 table #13: 19692 bytes OK
+2024/11/19-08:33:44.378 24e6a Delete type=0 #10

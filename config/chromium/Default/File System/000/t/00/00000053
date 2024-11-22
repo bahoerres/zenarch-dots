@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a"
+video.m3u8?region=us-west-2&bucket=iv-prod-pro-stocks&key=e4f62a93-3d9b-4cc9-9213-03fa3d41c502/e4f62a93-3d9b-4cc9-9213-03fa3d41c502&duration=3&preset=sd480_mpeg_hls

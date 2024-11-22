@@ -1,0 +1,15 @@
+2024/11/21-17:46:10.155 ce05 Reusing MANIFEST /home/blake/.config/Beeper/Local Storage/leveldb/MANIFEST-000001
+2024/11/21-17:46:10.161 ce05 Recovering log #61
+2024/11/21-17:46:10.161 ce05 Reusing old log /home/blake/.config/Beeper/Local Storage/leveldb/000061.log 
+2024/11/21-17:47:10.551 ce06 Level-0 table #65: started
+2024/11/21-17:47:10.571 ce06 Level-0 table #65: 46932 bytes OK
+2024/11/21-17:47:10.590 ce06 Delete type=0 #61
+2024/11/21-17:47:10.591 ce06 Compacting 4@0 + 1@1 files
+2024/11/21-17:47:10.605 ce06 Generated table #66@0: 1309 keys, 588079 bytes
+2024/11/21-17:47:10.605 ce06 Compacted 4@0 + 1@1 files => 588079 bytes
+2024/11/21-17:47:10.618 ce06 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/21-17:47:10.618 ce06 Delete type=2 #55
+2024/11/21-17:47:10.618 ce06 Delete type=2 #58
+2024/11/21-17:47:10.618 ce06 Delete type=2 #60
+2024/11/21-17:47:10.619 ce06 Delete type=2 #62
+2024/11/21-17:47:10.619 ce06 Delete type=2 #65

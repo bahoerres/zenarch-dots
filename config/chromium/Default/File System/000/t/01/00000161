@@ -1,0 +1,15 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-TARGETDURATION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:3,
+video_segment.ts?region=us-west-2&bucket=iv-prod-pro-stocks&key=e6e023d7-5619-4b32-a094-e4dd6aa2285f/e6e023d7-5619-4b32-a094-e4dd6aa2285f&preset=sd480_mpeg_hls&start=0&duration=3
+#EXTINF:3,
+video_segment.ts?region=us-west-2&bucket=iv-prod-pro-stocks&key=e6e023d7-5619-4b32-a094-e4dd6aa2285f/e6e023d7-5619-4b32-a094-e4dd6aa2285f&preset=sd480_mpeg_hls&start=3&duration=3
+#EXTINF:3,
+video_segment.ts?region=us-west-2&bucket=iv-prod-pro-stocks&key=e6e023d7-5619-4b32-a094-e4dd6aa2285f/e6e023d7-5619-4b32-a094-e4dd6aa2285f&preset=sd480_mpeg_hls&start=6&duration=3
+#EXTINF:1.0,
+video_segment.ts?region=us-west-2&bucket=iv-prod-pro-stocks&key=e6e023d7-5619-4b32-a094-e4dd6aa2285f/e6e023d7-5619-4b32-a094-e4dd6aa2285f&preset=sd480_mpeg_hls&start=9&duration=1.0
+#EXT-X-ENDLIST

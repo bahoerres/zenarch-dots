@@ -1,0 +1,14 @@
+2024/11/21-17:46:11.680 ce06 Reusing MANIFEST /home/blake/.config/Beeper/IndexedDB/nova_nova-web_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/21-17:46:11.680 ce06 Recovering log #50
+2024/11/21-17:46:11.683 ce06 Reusing old log /home/blake/.config/Beeper/IndexedDB/nova_nova-web_0.indexeddb.leveldb/000050.log 
+2024/11/22-08:31:52.228 ce06 Level-0 table #56: started
+2024/11/22-08:31:52.263 ce06 Level-0 table #56: 1224591 bytes OK
+2024/11/22-08:31:52.288 ce06 Delete type=0 #50
+2024/11/22-08:37:49.808 ce06 Compacting 1@1 + 2@2 files
+2024/11/22-08:37:49.848 ce06 Generated table #57@1: 2101 keys, 2132820 bytes
+2024/11/22-08:37:49.880 ce06 Generated table #58@1: 8827 keys, 1602469 bytes
+2024/11/22-08:37:49.880 ce06 Compacted 1@1 + 2@2 files => 3735289 bytes
+2024/11/22-08:37:49.898 ce06 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/11/22-08:37:49.899 ce06 Delete type=2 #52
+2024/11/22-08:37:49.899 ce06 Delete type=2 #53
+2024/11/22-08:37:49.899 ce06 Delete type=2 #56

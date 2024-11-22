@@ -1,0 +1,12 @@
+2024/11/20-13:00:55.439 9bb3 Reusing MANIFEST /home/blake/.config/Beeper/Local Storage/leveldb/MANIFEST-000001
+2024/11/20-13:00:55.444 9bb3 Recovering log #53
+2024/11/20-13:00:55.444 9bb3 Reusing old log /home/blake/.config/Beeper/Local Storage/leveldb/000053.log 
+2024/11/20-13:01:55.913 9bb1 Level-0 table #58: started
+2024/11/20-13:01:55.929 9bb1 Level-0 table #58: 54690 bytes OK
+2024/11/20-13:01:55.948 9bb1 Delete type=0 #53
+2024/11/20-13:03:55.913 9bb1 Level-0 table #60: started
+2024/11/20-13:03:55.921 9bb1 Level-0 table #60: 54842 bytes OK
+2024/11/20-13:03:55.934 9bb1 Delete type=0 #57
+2024/11/20-13:22:56.548 9bb1 Level-0 table #62: started
+2024/11/20-13:22:56.564 9bb1 Level-0 table #62: 39793 bytes OK
+2024/11/20-13:22:56.578 9bb1 Delete type=0 #59

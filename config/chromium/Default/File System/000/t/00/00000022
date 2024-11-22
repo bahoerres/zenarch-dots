@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-TARGETDURATION:21.368
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:21.368,
+audio_segment.ogg?region=us-west-2&bucket=iv-prod-pro-audio&key=02b4fa56-6102-40d6-b940-419dcd733fda/02b4fa56-6102-40d6-b940-419dcd733fda&preset=hd48stereo_vorbis_hls_overlapped_no_normalize&start=0&duration=21.368
+#EXT-X-ENDLIST
