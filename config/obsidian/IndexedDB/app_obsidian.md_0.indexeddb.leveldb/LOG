@@ -1,6 +1,0 @@
-2024/11/22-08:27:50.129 10c9f Reusing MANIFEST /home/blake/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/22-08:27:50.129 10c9f Recovering log #153
-2024/11/22-08:27:50.143 10c9f Reusing old log /home/blake/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000153.log 
-2024/11/22-08:27:59.770 10c9d Level-0 table #159: started
-2024/11/22-08:27:59.800 10c9d Level-0 table #159: 970258 bytes OK
-2024/11/22-08:27:59.813 10c9d Delete type=0 #153
