@@ -17,7 +17,15 @@ fish_add_path $HOME/.local/bin
 fish_add_path /usr/lib/ccache/bin
 
 # Initialize Starship prompt
-starship init fish | source
+if type -q starship
+    starship init fish | source
+end
 
 # Initialize Atuin
-atuin init fish | source
+if type -q atuin
+    atuin init fish | source
+    bind up _atuin_bind_up
+end
+
+# Set theme
+theme_gruvbox dark soft
