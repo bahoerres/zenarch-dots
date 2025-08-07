@@ -20,4 +20,4 @@ fish_add_path /usr/lib/ccache/bin
 starship init fish | source
 
 # Initialize Atuin
-# atuin init fish | source
+atuin init fish | source
